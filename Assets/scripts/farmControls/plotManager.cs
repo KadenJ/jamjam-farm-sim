@@ -43,7 +43,7 @@ public class plotManager : MonoBehaviour
     {
         if (isPlanted)
         {
-            if(plantStage == selectedPlant.plantStages.Length - 1&& !FM.isPlanting)
+            if(plantStage == selectedPlant.plantStages.Length - 1 /*&& !FM.isPlanting*/)
             {
                 harvest();
             }
