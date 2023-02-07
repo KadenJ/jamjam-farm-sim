@@ -10,6 +10,7 @@ public class plotManager : MonoBehaviour
 
     int plantStage = 0;
     float timer;
+    public bool isActive = false;
 
     plantObject selectedPlant;
     farmManager FM;
@@ -49,7 +50,7 @@ public class plotManager : MonoBehaviour
             }
             
         }
-        else if(FM.isPlanting&&FM.selectPlant.plant.buyPrice <= FM.money)
+        else if(FM.isPlanting&&FM.selectPlant.plant.buyPrice <= FM.money && isActive)
         {
             plantCrop(FM.selectPlant.plant);
         }
