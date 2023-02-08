@@ -44,13 +44,13 @@ public class plotManager : MonoBehaviour
     {
         if (isPlanted)
         {
-            if(plantStage == selectedPlant.plantStages.Length - 1 /*&& !FM.isPlanting*/)
+            if(plantStage == selectedPlant.plantStages.Length - 1)
             {
                 harvest();
             }
             
         }
-        else if(FM.isPlanting&&FM.selectPlant.plant.buyPrice <= FM.money && isActive)
+        else if(FM.isPlanting&&FM.selectPlant.plant.buyPrice <= FM.money)
         {
             plantCrop(FM.selectPlant.plant);
         }
@@ -59,7 +59,6 @@ public class plotManager : MonoBehaviour
 
     void harvest()
     {
-        Debug.Log("harvested");
         isPlanted = false;
         plant.gameObject.SetActive(false);
 
@@ -69,7 +68,6 @@ public class plotManager : MonoBehaviour
     void plantCrop(plantObject newPlant)
     {
         selectedPlant = newPlant;
-        Debug.Log("plant crop");
         isPlanted = true;
 
         FM.Transaction(-selectedPlant.buyPrice);
