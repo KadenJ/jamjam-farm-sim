@@ -5,7 +5,9 @@ using UnityEngine;
 public class potsAndShelves : MonoBehaviour
 {
     public GameObject[] pots;
+    public GameObject[] shelves;
     int boughtPots = 1;
+    int boughtShelves = 1;
 
     farmManager fm;
     // Start is called before the first frame update
