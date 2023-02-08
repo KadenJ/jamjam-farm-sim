@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cd8ca130da2e1748b782ffabda8eb1b, type: 3}
   m_Name: sunflower2
   m_EditorClassIdentifier: 
-  plantName: sunflower
+  plantName: lily
   plantStages:
   - {fileID: -1133278922552545190, guid: d6d8638ab42b8bc439f150492979d1bd, type: 3}
   - {fileID: -5489546245227644127, guid: d6d8638ab42b8bc439f150492979d1bd, type: 3}

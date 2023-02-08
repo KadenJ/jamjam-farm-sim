@@ -346,7 +346,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 8d6ee90aad6b83d47b1bdf7cf5d36bef, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -496,14 +496,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: pot (5)
       objectReference: {fileID: 0}
-    - target: {fileID: 4485164595207449268, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4485164595207449270, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
-      propertyPath: m_SortingOrder
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 4485164595207449271, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -573,7 +565,7 @@ PrefabInstance:
     - target: {fileID: -2842992769334904240, guid: 3f2d03df11fd82c49aeb949c2e2b11a7, type: 3}
       propertyPath: plant
       value: 
-      objectReference: {fileID: 11400000, guid: 84198c69f4b5f0b4ca1b95dd2e111510, type: 2}
+      objectReference: {fileID: 11400000, guid: 10517e0407feca34ca25ad3402242e5f, type: 2}
     - target: {fileID: 217907093771013174, guid: 3f2d03df11fd82c49aeb949c2e2b11a7, type: 3}
       propertyPath: m_Maskable
       value: 1
@@ -688,16 +680,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f2d03df11fd82c49aeb949c2e2b11a7, type: 3}
---- !u!1 &242405734 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4485164595207449268, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
-  m_PrefabInstance: {fileID: 1462013280}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &305430597 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4485164595207449268, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
-  m_PrefabInstance: {fileID: 1744099873}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &311491602
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -728,18 +710,6 @@ PrefabInstance:
     - target: {fileID: 217907093771013175, guid: 3f2d03df11fd82c49aeb949c2e2b11a7, type: 3}
       propertyPath: m_Colors.m_HighlightedColor.r
       value: 0.7735849
-      objectReference: {fileID: 0}
-    - target: {fileID: 217907093771013175, guid: 3f2d03df11fd82c49aeb949c2e2b11a7, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1874887417}
-    - target: {fileID: 217907093771013175, guid: 3f2d03df11fd82c49aeb949c2e2b11a7, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: buyPot
-      objectReference: {fileID: 0}
-    - target: {fileID: 217907093771013175, guid: 3f2d03df11fd82c49aeb949c2e2b11a7, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: potsAndShelves, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 217907094131993072, guid: 3f2d03df11fd82c49aeb949c2e2b11a7, type: 3}
       propertyPath: m_Pivot.x
@@ -841,6 +811,23 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 217907094131993072, guid: 3f2d03df11fd82c49aeb949c2e2b11a7, type: 3}
   m_PrefabInstance: {fileID: 311491602}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &311491604 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 217907094131993073, guid: 3f2d03df11fd82c49aeb949c2e2b11a7, type: 3}
+  m_PrefabInstance: {fileID: 311491602}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &311491605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 311491604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f41c67a15cd34e14e9eaa76f54d82b55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &332542721
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -977,14 +964,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: pot (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 4485164595207449268, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4485164595207449270, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
-      propertyPath: m_SortingOrder
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 4485164595207449271, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1054,7 +1033,7 @@ PrefabInstance:
     - target: {fileID: -2842992769334904240, guid: 3f2d03df11fd82c49aeb949c2e2b11a7, type: 3}
       propertyPath: plant
       value: 
-      objectReference: {fileID: 11400000, guid: 30ad3076b96ee75428f25b244516956e, type: 2}
+      objectReference: {fileID: 11400000, guid: 10517e0407feca34ca25ad3402242e5f, type: 2}
     - target: {fileID: 217907093771013174, guid: 3f2d03df11fd82c49aeb949c2e2b11a7, type: 3}
       propertyPath: m_Maskable
       value: 1
@@ -1245,11 +1224,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 443714818}
   m_CullTransparentMesh: 1
---- !u!1 &453870405 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4485164595207449268, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
-  m_PrefabInstance: {fileID: 169012153}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1549,7 +1523,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 8d6ee90aad6b83d47b1bdf7cf5d36bef, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1571,7 +1545,7 @@ PrefabInstance:
     - target: {fileID: -2842992769334904240, guid: 3f2d03df11fd82c49aeb949c2e2b11a7, type: 3}
       propertyPath: plant
       value: 
-      objectReference: {fileID: 11400000, guid: 006599cea393f9f48848918953b03770, type: 2}
+      objectReference: {fileID: 11400000, guid: 10517e0407feca34ca25ad3402242e5f, type: 2}
     - target: {fileID: 217907093771013174, guid: 3f2d03df11fd82c49aeb949c2e2b11a7, type: 3}
       propertyPath: m_Maskable
       value: 1
@@ -1919,14 +1893,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: pot (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 4485164595207449268, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4485164595207449270, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
-      propertyPath: m_SortingOrder
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 4485164595207449271, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -2080,14 +2046,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 999457088}
     m_Modifications:
-    - target: {fileID: 4485164595098454868, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
-      propertyPath: m_SortingOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4485164595098454871, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
-      propertyPath: m_EdgeRadius
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 4485164595207449264, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
       propertyPath: selectedPlant
       value: 
@@ -2095,14 +2053,6 @@ PrefabInstance:
     - target: {fileID: 4485164595207449268, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
       propertyPath: m_Name
       value: pot (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4485164595207449268, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4485164595207449270, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
-      propertyPath: m_SortingOrder
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4485164595207449271, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
       propertyPath: m_RootOrder
@@ -2555,11 +2505,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f2d03df11fd82c49aeb949c2e2b11a7, type: 3}
---- !u!1 &1361178206 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4485164595207449268, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
-  m_PrefabInstance: {fileID: 366356448}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1368117830 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 217907094131993072, guid: 3f2d03df11fd82c49aeb949c2e2b11a7, type: 3}
@@ -2577,25 +2522,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 999457088}
     m_Modifications:
-    - target: {fileID: 4485164595098454868, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
-      propertyPath: m_SortingOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4485164595098454871, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
-      propertyPath: m_EdgeRadius
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 4485164595207449268, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
       propertyPath: m_Name
       value: pot (3)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4485164595207449268, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4485164595207449270, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
-      propertyPath: m_SortingOrder
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4485164595207449271, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
       propertyPath: m_RootOrder
@@ -2796,14 +2725,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 999457088}
     m_Modifications:
-    - target: {fileID: 4485164595098454868, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
-      propertyPath: m_SortingOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4485164595098454871, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
-      propertyPath: m_EdgeRadius
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 4485164595207449264, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
       propertyPath: selectedPlant
       value: 
@@ -2811,14 +2732,6 @@ PrefabInstance:
     - target: {fileID: 4485164595207449268, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
       propertyPath: m_Name
       value: pot (6)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4485164595207449268, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4485164595207449270, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
-      propertyPath: m_SortingOrder
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4485164595207449271, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
       propertyPath: m_RootOrder
@@ -2959,11 +2872,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 217907094131993072, guid: 3f2d03df11fd82c49aeb949c2e2b11a7, type: 3}
   m_PrefabInstance: {fileID: 1246943269}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1718258217 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4485164595207449268, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
-  m_PrefabInstance: {fileID: 967203607}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1732437690
 GameObject:
   m_ObjectHideFlags: 0
@@ -3103,25 +3011,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 999457088}
     m_Modifications:
-    - target: {fileID: 4485164595098454868, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
-      propertyPath: m_SortingOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4485164595098454871, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
-      propertyPath: m_EdgeRadius
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 4485164595207449268, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
       propertyPath: m_Name
       value: pot (7)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4485164595207449268, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4485164595207449270, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
-      propertyPath: m_SortingOrder
-      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4485164595207449271, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
       propertyPath: m_RootOrder
@@ -3315,11 +3207,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1817169866}
   m_CullTransparentMesh: 1
---- !u!1 &1872987488 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4485164595207449268, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
-  m_PrefabInstance: {fileID: 827495455}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1874887416
 GameObject:
   m_ObjectHideFlags: 0
@@ -3329,7 +3216,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1874887418}
-  - component: {fileID: 1874887417}
   m_Layer: 0
   m_Name: content
   m_TagString: Untagged
@@ -3337,27 +3223,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1874887417
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1874887416}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f41c67a15cd34e14e9eaa76f54d82b55, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pots:
-  - {fileID: 1998815572}
-  - {fileID: 1361178206}
-  - {fileID: 1718258217}
-  - {fileID: 242405734}
-  - {fileID: 1872987488}
-  - {fileID: 453870405}
-  - {fileID: 2143934505}
-  - {fileID: 305430597}
 --- !u!224 &1874887418
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3376,7 +3241,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.3, y: -1.69}
+  m_AnchoredPosition: {x: -0.43448552, y: -0.8981104}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1891907923
@@ -3449,7 +3314,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 8d6ee90aad6b83d47b1bdf7cf5d36bef, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3461,11 +3326,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1998815572 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4485164595207449268, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
-  m_PrefabInstance: {fileID: 4485164595826812229}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &2003061339 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4962433023164777815, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
@@ -3527,7 +3387,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 8d6ee90aad6b83d47b1bdf7cf5d36bef, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3553,11 +3413,6 @@ Transform:
   m_Father: {fileID: 164956345}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2143934505 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4485164595207449268, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
-  m_PrefabInstance: {fileID: 1601662022}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &217907093567740767
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3697,14 +3552,6 @@ PrefabInstance:
     - target: {fileID: 4485164595207449268, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
       propertyPath: m_Name
       value: pot
-      objectReference: {fileID: 0}
-    - target: {fileID: 4485164595207449268, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4485164595207449270, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
-      propertyPath: m_SortingOrder
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4485164595207449271, guid: 98b4135f8697df34388a4e4ba78e0f0e, type: 3}
       propertyPath: m_RootOrder
