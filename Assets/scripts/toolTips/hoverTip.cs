@@ -5,6 +5,8 @@ using UnityEngine.EventSystems;
 
 public class hoverTip : MonoBehaviour,IPointerEnterHandler, IPointerExitHandler
 {
+    public plantObject plant;
+    public farmManager FM;
     public string flowerName;
     private float waitTime = .3f;
 
@@ -23,8 +25,16 @@ public class hoverTip : MonoBehaviour,IPointerEnterHandler, IPointerExitHandler
 
     private void showMessage()
     {
+        if (plant.buyPrice > FM.money)
+        {
+            hoverManager.OnMouseHover("not enough money", Input.mousePosition);
+        }
+        else
+        {
+            hoverManager.OnMouseHover(flowerName, Input.mousePosition);
+        }
         //if statement to change text
-        hoverManager.OnMouseHover(flowerName, Input.mousePosition);
+        
     }
 
     private IEnumerator startTimer()

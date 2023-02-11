@@ -8,7 +8,7 @@ public class farmManager : MonoBehaviour
 {
     public plantItem selectPlant;
     public bool isPlanting = false;
-    public int money = 100;
+    public int money = 1000;
     //public Text moneyTxt;
     public TextMeshProUGUI moneyTxt;
 

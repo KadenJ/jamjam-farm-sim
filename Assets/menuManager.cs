@@ -5,14 +5,23 @@ using UnityEngine.SceneManagement;
 
 public class menuManager : MonoBehaviour
 {
+
     public int scene;
     public void loadScene()
     {
-        SceneManager.LoadSceneAsync(scene);
+
+        StartCoroutine(wait());
     }
 
     public void exit()
     {
         Application.Quit();
     }
+
+    IEnumerator wait()
+    {
+        yield return new WaitForSeconds(.3f);
+        SceneManager.LoadSceneAsync(scene);
+    }
+
 }

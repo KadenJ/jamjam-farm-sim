@@ -16,7 +16,7 @@ MonoBehaviour:
   plantStages:
   - {fileID: -1133278922552545190, guid: d6d8638ab42b8bc439f150492979d1bd, type: 3}
   - {fileID: -5489546245227644127, guid: d6d8638ab42b8bc439f150492979d1bd, type: 3}
-  - {fileID: 21300000, guid: afca871318001664ba679f110d2398cc, type: 3}
+  - {fileID: -5056363087897396418, guid: afca871318001664ba679f110d2398cc, type: 3}
   timeBetweenStages: 2
   buyPrice: 0
   sellPrice: 2

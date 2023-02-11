@@ -53,6 +53,8 @@ public class plotManager : MonoBehaviour
         else if(FM.isPlanting&&FM.selectPlant.plant.buyPrice <= FM.money)
         {
             plantCrop(FM.selectPlant.plant);
+            FM.isPlanting = false;
+            FM.selectPlant = null;
         }
 
     }
@@ -81,6 +83,6 @@ public class plotManager : MonoBehaviour
     {
         plant.sprite = selectedPlant.plantStages[plantStage];
         plantCollider.size = plant.sprite.bounds.size;
-        plantCollider.offset = new Vector2(0, plant.bounds.size.y / 2);
+        plantCollider.offset = new Vector2(0, plant.bounds.size.y / 3);
     }
 }
